@@ -17,7 +17,7 @@ import plotly.express as px
 
 #한글깨짐 방지코드 
 font_location = 'NanumGothic.ttf'
-fm.fontManager.addfont(font_location)
+# fm.fontManager.addfont(font_location)
 font_name = fm.FontProperties(fname=font_location).get_name()
 matplotlib.rc('font', family=font_name)
 matplotlib.rc('axes', unicode_minus=False)
