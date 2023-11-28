@@ -3,7 +3,7 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
-# import matplotlib
+import matplotlib
 # import matplotlib.pyplot as plt
 import matplotlib.font_manager as fm
 # from streamlit_option_menu import option_menu
