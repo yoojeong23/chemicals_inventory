@@ -13,6 +13,7 @@ from urllib.request import urlopen
 from PIL import Image
 import os
 import plotly.express as px
+import xlrd
 
 
 #한글깨짐 방지코드 
