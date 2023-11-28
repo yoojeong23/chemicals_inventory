@@ -6,7 +6,7 @@ import streamlit as st
 # import matplotlib
 # import matplotlib.pyplot as plt
 # import matplotlib.font_manager as fm
-from streamlit_option_menu import option_menu
+# from streamlit_option_menu import option_menu
 # from matplotlib.ticker import StrMethodFormatter
 import requests
 from urllib.request import urlopen
