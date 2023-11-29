@@ -210,7 +210,7 @@ if st.session_state.page == "Government Guidelines":
 elif st.session_state.page == "Database_1":
     st.header("화학물질 제품별 통계량")
     
-    df = pd.read_excel('제품정보(1).xlsx')
+    df = pd.read_excel('제품정보_2016~2022(5).xlsx')
     
     st.markdown("<div style='text-align: right'>[단위: kg/년]</div>", unsafe_allow_html=True)
     
