@@ -14,6 +14,7 @@ from PIL import Image
 import os
 import plotly.express as px
 import xlrd
+import openpyxl
 
 
 #한글깨짐 방지코드 
@@ -209,7 +210,7 @@ if st.session_state.page == "Government Guidelines":
 elif st.session_state.page == "Database_1":
     st.header("화학물질 제품별 통계량")
     
-    df = pd.read_excel('A.xlsx')
+    df = pd.read_excel('A.xlsx',engine='openpyxl')
     
     st.markdown("<div style='text-align: right'>[단위: kg/년]</div>", unsafe_allow_html=True)
     
